@@ -35,6 +35,8 @@ main {
     height: 500px;
     border-radius: 10px;
     filter: drop-shadow(0 0 10px #cca5e6);
+    transition: width .2s, heigth .2s; /*Animamação de transição no redimensionamento*/
+    transition-timing-function: ease; /*Suavização da transição*/
 }
 
 #login > #imagem {
