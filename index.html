@@ -7,6 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <main>
@@ -15,6 +16,20 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Bem-vindo! Faça o login para acessar sua conta.</p>
+                <form action="#" method="post">
+                    <div class="campo">
+                        <i class='bx bx-user'></i>
+                        <input type="text" name="user" id="iuser" required minlength="8" maxlength="15" size="15">
+                        <label for="iuser">Usuário</label>
+                    </div>
+                    <div class="campo">
+                        <i class='bx bx-key'></i>
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="15" size="15">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a class="esq" href="#">Esqueci minha senha <i class='bx bx-envelope'></i></a>
+                </form>
             </div>
         </section>
     </main>

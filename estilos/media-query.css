@@ -11,13 +11,26 @@
 
     #login > #imagem {
         float: left;
-        width: 35%;
+        width: 40%;
         height: 100%;
     }
 
     #login > #form {
         float: right;
-        width: 65%;
+        width: 60%;
+    }
+
+    .campo>label {
+        color: white;
+        padding: 5px 0 0 3px;
+    }
+
+    form > input[type=submit] {
+        width: 80%;
+    }
+
+    form > .esq {
+        width: 80%;
     }
 }
 
@@ -29,14 +42,37 @@
         width: 960px;
     }
     #login > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #login > #form {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    .campo>label {
+        color: white;
+        padding: 5px 0 0 3px;
+    }
+
+    #form>h1 {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #form>p {
+        font-size: 1em;
+    }
+
+    form>input[type=submit] {
+        width: 80%;
+    }
+
+    form>.esq {
+        width: 80%;
     }
     
 }
