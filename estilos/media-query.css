@@ -6,7 +6,8 @@
     }
 
     #login {
-        width: 90vw;
+        width: 600px;
+        height: 250px;
     }
 
     #login > #imagem {
@@ -19,18 +20,36 @@
         float: right;
         width: 60%;
     }
+    
+    .campo {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
 
-    .campo>label {
+    .campo > label {
         color: white;
         padding: 5px 0 0 3px;
     }
 
+    #form > p {
+        margin-bottom: 20px;
+    }
+
     form > input[type=submit] {
         width: 80%;
+        margin: auto;
+        margin-bottom: 5px;
     }
 
     form > .esq {
         width: 80%;
+        margin:auto
+    }
+
+    
+    form > .esq:hover {
+        background-image: linear-gradient(to right, #63d6d2, #49a09d, #63d6d2);
     }
 }
 
@@ -40,6 +59,7 @@
     }
     #login {
         width: 960px;
+        height: 300px;
     }
     #login > #imagem {
         float: right;
@@ -52,27 +72,42 @@
         width: 50%;
     }
 
+    .campo {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+
     .campo>label {
         color: white;
         padding: 5px 0 0 3px;
     }
 
     #form>h1 {
-        font-size: 2em;
+        font-size: 2.1em;
         text-align: center;
         margin-bottom: 10px;
     }
 
     #form>p {
-        font-size: 1em;
+        font-size: 1.1em;
+        margin-bottom: 20px;
+        text-align: center;
     }
 
     form>input[type=submit] {
         width: 80%;
+        margin: auto;
+        margin-bottom: 5px;
     }
 
     form>.esq {
         width: 80%;
+        margin: auto;
+    }
+
+    form > .esq:hover {
+        background-image: linear-gradient(to right, #63d6d2, #49a09d, #63d6d2);
     }
     
 }

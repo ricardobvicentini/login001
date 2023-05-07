@@ -103,7 +103,7 @@ main {
         background-color: #49a09d;
         border: none;
         border-radius: 5px;
-        filter: drop-shadow(0 0 2px #49a09d86);
+        filter: drop-shadow(0 0 2px #49a09d88);
         color: white;
         cursor: pointer;
     } 
